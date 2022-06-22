@@ -217,7 +217,7 @@ body{
     font-size: 0;
 }
 .slick-dots li:not(:last-child){
-    margin-right: 6px;
+    margin-right: 15px;
 }
 .slick-arrow{
     background-color: transparent;
