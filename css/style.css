@@ -201,8 +201,8 @@ body{
     margin-top: 75px;
 }
 .slick-dots li {
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     background-image: url(../images/slider.png);
     background-repeat: no-repeat;
     background-position: center;
