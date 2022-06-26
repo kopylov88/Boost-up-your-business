@@ -146,6 +146,8 @@
         padding: 20px;
         margin: 0;
     }
+    .how__img{
+        margin-bottom: 50px;
     .form_body{
         flex-wrap: wrap;
         row-gap: 10px;
