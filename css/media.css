@@ -160,9 +160,6 @@
     .form_body__item:last-child{
         flex-basis: 100%;
     }
-    .name, .mail{
-        padding-left: 10px;
-    }    
 }
 @media(max-width:480px){
     .price__body{
