@@ -1,0 +1,209 @@
+@media(max-width:1200px){
+    .clients__item{
+        max-width: 40%;
+    }
+    .clients__body{
+       justify-content: center;
+    }
+}
+@media(max-width:1050px){
+    .arrow-1{
+        right: -90px;
+    }
+    .arrow-2{
+        right: -90px;
+    }
+    .arrow-3{
+        right: -90px;
+    }
+}
+@media(max-width:960px){
+    .arrow-1{
+        right: -80px;
+        top: -40px;
+    }
+    .arrow-2{
+        right: -80px;
+        top: 90px;
+    }
+    .arrow-3{
+        right: -80px;
+        top: -40px;
+    }
+}
+@media(max-width:920px){
+    .menu__link{
+        padding: 7px;
+    }
+    .form-body{
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .form-body .form-body__item{
+        flex-basis: 48%;
+        margin-right: 0;
+    }
+    .clients__item{
+        max-width: 100%;
+    }
+}
+@media(max-width:800px){
+    .footer-top__item:not(:last-child){
+        margin-right: 20px;
+    }
+}
+@media(max-width:767.9px){
+    body.noscroll{
+        overflow: hidden;
+    }
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        background-color: rgb(230, 230, 230);
+        padding: 5px 15px 5px 15px;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .hamb{
+        display: flex;
+    }
+    .hamb-popup{
+        top: 58px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:#fff;
+        transition: 0.5s;
+        z-index: 50; 
+        overflow: auto;
+        opacity: 0.95;
+    }
+    .hamb-popup .menu__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+    }
+    .hamb-popup .menu__list li:not(:last-child){
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .hamb-popup .menu__list li a{
+        letter-spacing: 10px;
+        font-size: 18px;
+    }
+    .hamb-popup.open{
+        top: 58px;
+    }
+    .form-body .form-body__item{
+        flex-basis: 100%;
+    }
+    .notebook{
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+    .services,.price,.how,.clients,.newsletter,.footer-top{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .boost{
+        padding-bottom: 50px;
+    }
+    .services__body{
+        grid-template-columns: 1fr;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .price__body{
+        grid-template-columns: 1fr 1fr;
+    }
+    .price__col:last-child{
+        grid-row: 2/3;
+        grid-column: 1/4;
+       
+    }
+    .arrow-1, .arrow-2, .arrow-3{
+        display: none;
+    }
+    .how__body{
+        flex-wrap: wrap;
+    }
+    .how__item{
+        width: 48%;
+        padding: 20px;
+        margin: 0;
+    }
+    .how__img{
+        margin-bottom: 50px;
+    }
+    .form_body{
+        flex-wrap: wrap;
+        row-gap: 10px;
+        justify-content: space-between;
+    }
+    .form_body .form_body__item{
+        flex-basis: 49%;
+        margin-right: 0;
+    }
+    .form_body__item:last-child{
+        flex-basis: 100%;
+    }
+    .name, .mail{
+        padding-left: 10px;
+    }
+}
+@media(max-width:480px){
+    .price__body{
+       display: flex;
+       flex-direction: column;
+    }
+    .how__item{
+        width: 100%;
+    }
+    .form_body .form_body__item{
+        flex-basis: 100%;
+    }
+    .footer-top__list{
+        flex-direction: column;
+    }
+    .footer-top__list .footer-top__item{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .map{
+        background-position: center;
+    }
+    .adress{
+       width: 230px;
+       height: 230px;
+    }
+    .about__left{
+        display: none;
+    }
+    .about__right{
+        padding: 50px 15px;
+        text-align: center;
+    }
+    .about__section-title{
+        text-align: center;
+    }
+    .clients__item{
+        display: block;
+    }
+    .clients__photo{
+        float: left;
+    }
+}
